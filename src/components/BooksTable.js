@@ -8,7 +8,7 @@ export default class BooksTable extends React.Component{
 render(){
     return(
 
-<Table striped bordered hover>
+<Table>
       <thead>
         <tr>
           <th>Title</th>
