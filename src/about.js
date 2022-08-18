@@ -1,25 +1,15 @@
 import { Component } from "react";
-import Table from 'react-bootstrap/Table';
-class Profile extends Component {
+
+class About extends Component {
 
   render() {
-    
+   
     return (
-      <>
-       <Table>
-      <thead>
-        <tr>Info</tr>
-        <tr>
-          <th>First Name</th>
-          <th>Last Name</th>
-        </tr>
-      </thead>
-       
-    
-    </Table>
-      </>
+      <div>
+        <p>firas yacoup</p>
+      </div>
     )
   }
 };
 
-export default Profile;
+export default About;
